@@ -25,8 +25,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 <img src="./screenshots/screenshot-desktop.png" width= "65%">
 
 <p float="left">
-  <img src="./screenshots/screenshot-mobile.png" width="100">
-  <img src="./screenshots/screenshot-desktop.png" width= "100">
+  <img src="./screenshots/screenshot-mobile.png" >
+  <img src="./screenshots/screenshot-desktop.png" >
 </p>
 
 
