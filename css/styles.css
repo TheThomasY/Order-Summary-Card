@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,143 @@
 
 html {
   font-size: 62.5%;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: #e0e8ff;
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: -2vw;
+  }
+}
+
+.card {
+  margin: 30px auto;
+  width: 85%;
+  max-width: 400px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -5px, rgba(0, 0, 0, 0.1) 0px 16px 16px -8px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 25px 20px -5px, rgba(0, 0, 0, 0.1) 0px 16px 16px -8px;
+}
+
+.hero-img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-title {
+  font-size: 2.3rem;
+  font-weight: 900;
+  margin-top: 40px;
+}
+
+.card-description {
+  width: 85%;
+  max-width: 300px;
+  font-size: 1.6rem;
+  margin-top: 15px;
+  line-height: 25px;
+  color: #7280a7;
+}
+
+.pricing-section {
+  font-size: 1.4rem;
+  width: 85%;
+  max-width: 310px;
+  margin-top: 20px;
+  padding: 20px 0;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f5f7ff;
+}
+
+.pricing-section img {
+  padding-left: 20px;
+}
+
+.pricing-annual-plan {
+  margin-right: auto;
+  padding-left: 15px;
+  font-weight: 900;
+}
+
+.pricing-price {
+  color: #7280a7;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.pricing-change-link {
+  padding-right: 20px;
+  color: #3829e0;
+  text-decoration: underline;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.pricing-change-link:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.btn {
+  font-size: 1.4rem;
+}
+
+.payment {
+  width: 85%;
+  max-width: 310px;
+  margin-top: 30px;
+  padding: 15px 0;
+  border-radius: 10px;
+  color: white;
+  background-color: #3829e0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 25px -5px, rgba(0, 0, 0, 0.08) 0px 15px 10px -5px;
+          box-shadow: rgba(0, 0, 0, 0.2) 0px 25px 25px -5px, rgba(0, 0, 0, 0.08) 0px 15px 10px -5px;
+  cursor: pointer;
+}
+
+.payment:hover {
+  background-color: #766cf1;
+}
+
+.cancel {
+  margin-top: 25px;
+  margin-bottom: 40px;
+  color: #7280a7;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cancel:hover {
+  color: #1f2f56;
 }
 
 .attribution {
