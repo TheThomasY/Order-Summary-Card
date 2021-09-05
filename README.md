@@ -20,9 +20,9 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshots
 
-<!-- ![](./screenshots/screenshot-mobile.png) -->
+
 <img src="./screenshots/screenshot-mobile.png" width="300">
-![](./screenshots/screenshot-desktop.png)
+<img src="./screenshots/screenshot-desktop.png">
 
 
 ## My process
