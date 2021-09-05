@@ -5,54 +5,39 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
+  - [Screenshots](#screenshots)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- See hover states for interactive elements
-
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [GitHubPages](https://thethomasy.github.io/Order-Summary-Card/)
+
+### Screenshots
+
+![](./screenshots/screenshot-mobile.png)
+![](./screenshots/screenshot-desktop.png)
 
 ## My process
 
+Card was built mobile first and then made to expand on larger screens. There is not a huge change but it definitely helps. The background image also changes between mobile and desktop.
+
 ### Built with
 
-<!-- - Semantic HTML5 markup
-- CSS custom properties
+- HTML
+- SASS
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles -->
-
-### What I learned
-
-### Continued development
 
 ### Useful resources
+
+Very useful resource for box shadows[CSSScan](https://getcssscan.com/css-box-shadow-examples)
 
 ## Author
 
 - Frontend Mentor - [@TheThomasY](https://www.frontendmentor.io/profile/TheThomasY)
-
-## Acknowledgments
