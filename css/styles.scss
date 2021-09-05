@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+$Pale-blue: hsl(225, 100%, 94%);
+$Bright-blue: hsl(245, 75%, 52%);
+
+$Very-pale-blue: hsl(225, 100%, 98%);
+$Desat-blue: hsl(224, 23%, 55%);
+$Dark-blue: hsl(223, 47%, 23%);
+
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +14,65 @@
 
 html {
   font-size: 62.5%;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: $Pale-blue;
 }
 
+.card {
+  margin: 30px auto;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.hero-img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-title {
+  font-size: 2.3rem;
+  font-weight: 900;
+  margin-top: 30px;
+}
+
+.card-description {
+  font-size: 1.6rem;
+  margin-top: 25px;
+  padding: 0 25px;
+}
+
+.pricing-section {
+  font-size: 1.6rem;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  background-color: $Very-pale-blue;
+}
+
+.btn {
+  font-size: 1.6rem;
+}
+
+.payment {
+  width: 80%;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: $Bright-blue;
+}
+
+.cancel {
+  margin: 25px 0;
+}
+
+// Links
 .attribution {
   font-size: 11px;
   text-align: center;
