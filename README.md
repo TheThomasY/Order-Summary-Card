@@ -16,12 +16,14 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Live Site URL: [GitHubPages](https://thethomasy.github.io/Order-Summary-Card/)
+- Live Site URL: [GitHubPage](https://thethomasy.github.io/Order-Summary-Card/)
 
 ### Screenshots
 
-![](./screenshots/screenshot-mobile.png)
+<!-- ![](./screenshots/screenshot-mobile.png) -->
+<img src="./screenshots/screenshot-mobile.png" width="300">
 ![](./screenshots/screenshot-desktop.png)
+
 
 ## My process
 
