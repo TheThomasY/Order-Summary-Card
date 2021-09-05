@@ -39,7 +39,7 @@ Card was built mobile first and then made to expand on larger screens. There is 
 
 ### Useful resources
 
-Very useful resource for box shadows[CSSScan](https://getcssscan.com/css-box-shadow-examples)
+Very useful resource for box shadows [CSSScan](https://getcssscan.com/css-box-shadow-examples).
 
 ## Author
 
